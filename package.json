@@ -1,10 +1,23 @@
 {
   "dependencies": {
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
     "expo": "~42.0.0",
+    "firebase": "8.2.3",
+    "lottie-react-native": "^4.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-bouncy-checkbox": "^2.1.4",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-google-places-autocomplete": "^2.4.1",
+    "react-native-reanimated": "^2.2.2",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.5",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
