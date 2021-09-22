@@ -4,6 +4,8 @@ import { Divider } from "react-native-elements";
 import About from "../components/restaurantDetail/About";
 import MenuItems from "../components/restaurantDetail/MenuItems";
 import ViewCart from "../components/restaurantDetail/ViewCart";
+import Footer from "../components/restaurantDetail/Footer";
+
 
 const foods = [
   {
@@ -52,6 +54,7 @@ export default function RestaurantDetail({ route, navigation }) {
       <Divider width={1.8} style={{ marginVertical: 20 }} />
       <MenuItems restaurantName={route.params.name} foods={foods} />
       <ViewCart navigation={navigation} />
+      <Footer/>
     </View>
   );
 }
