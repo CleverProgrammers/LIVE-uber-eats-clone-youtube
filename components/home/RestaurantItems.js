@@ -93,11 +93,11 @@ const RestaurantInfo = (props) => (
     <View
       style={{
         backgroundColor: "#eee",
-        height: 30,
-        width: 30,
+        height: 45,
+        width: 45,
         alignItems: "center",
         justifyContent: "center",
-        borderRadius: 15,
+        borderRadius: 30,
       }}
     >
       <Text>{props.rating}</Text>

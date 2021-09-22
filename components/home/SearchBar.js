@@ -6,7 +6,7 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 
 export default function SearchBar({ cityHandler }) {
   return (
-    <View style={{ marginTop: 15, flexDirection: "row" }}>
+    <View style={{ marginTop:30, flexDirection: "row" }}>
       <GooglePlacesAutocomplete
         query={{ key: "AIzaSyATiAqIXBARofRD2apZcPQ1eEWZPH4fPV4" }}
         onPress={(data, details = null) => {
@@ -18,37 +18,37 @@ export default function SearchBar({ cityHandler }) {
         styles={{
           textInput: {
             backgroundColor: "#eee",
-            borderRadius: 20,
-            fontWeight: "700",
-            marginTop: 7,
+            borderRadius: 30,
+            fontWeight: "500",
+            marginTop:10,
           },
           textInputContainer: {
             backgroundColor: "#eee",
-            borderRadius: 50,
+            borderRadius: 25,
             flexDirection: "row",
             alignItems: "center",
-            marginRight: 10,
+            marginRight: 20,
           },
         }}
         renderLeftButton={() => (
           <View style={{ marginLeft: 10 }}>
-            <Ionicons name="location-sharp" size={24} />
+            <Ionicons name="location-sharp" size={30} />
           </View>
         )}
         renderRightButton={() => (
           <View
             style={{
               flexDirection: "row",
-              marginRight: 8,
+              marginRight: 10,
               backgroundColor: "white",
-              padding: 9,
-              borderRadius: 30,
+              padding: 15,
+              borderRadius: 45,
               alignItems: "center",
             }}
           >
             <AntDesign
               name="clockcircle"
-              size={11}
+              size={15}
               style={{ marginRight: 6 }}
             />
             <Text>Search</Text>
